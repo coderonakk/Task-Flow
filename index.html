@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Flow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left black br">
+            <div class="logo">
+                <img class="logo-img" src="logo.png" alt="">
+                <h3>Task Flow</h3>
+                <i class="fa-solid fa-xmark closemenu-btn"></i>
+            </div>
+
+
+            <div class="tasks">
+                <div class="menu">Menu</div>
+                <ul>
+                    <li class="allcat"><i class="fa-solid fa-list-check"></i> All Tasks</li>
+                    <li class="allcat"><i class="fa-solid fa-code"></i> College</li>
+                    <li class="allcat"><i class="fa-solid fa-briefcase"></i> Work</li>
+                    <li class="allcat"><i class="fa-solid fa-dumbbell"></i> Gym</li>
+                    <li class="allcat"><i class="fa-solid fa-book"></i> Reading</li>
+                    <li class="allcat"><i class="fa-solid fa-ellipsis"></i> Others</li>
+                </ul>
+            </div>
+            <div class="bottom-sec">
+                <div class="welcome">
+                    <h3>Welcome Back</h3>
+                    <h2 class="username" title="Click to edit name">Your name</h2>
+                    <p>Ready for a productive day?</p>
+                </div>
+                <div class="footer">
+                    <div>Home</div>
+                    <div>About</div>
+                    <div>Cookies</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header flex black br">
+                <i class="fa-solid fa-bars menu-btn"></i>
+                <h2>Dashboard</h2>
+                <input class="input" type="text" placeholder="Write Tasks">
+                <select class="select" name="/" id="">
+                    <option value="All Tasks">All Tasks</option>
+                    <option value="College">College</option>
+                    <option value="Work">Work</option>
+                    <option value="Gym">Gym</option>
+                    <option value="Reading">Reading</option>
+                    <option value="Others">Others</option>
+                </select>
+                <button class="addbtn flex">
+                    <i class="fa-solid fa-plus"></i>
+                    Add new Task
+                </button>
+            </div>
+
+            <div class="notes black br flex">
+                <div class="category flex ">
+                    <span class="ntext">All Tasks</span>
+                    <span class="counter"></span>
+                </div>
+
+                <div class="taskspace"></div>
+                <div class="notasks">No Tasks yet.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/* FOLDER: UTILITY CSS */
+
+.black{
+    background-color: rgb(47, 48, 48);
+}
+.br{
+    border-radius: 7px;
+}
+.flex{
+    display: flex;
+}
+.invert{
+    filter: invert(1);
+}
+.plus-size{
+width: 17px;
+}
+
