@@ -1,6 +1,6 @@
 # TaskFlow
 
-![TaskFlow Screenshot](screenshot.png)
+![TaskFlow Screenshot](Screenshot Task-Flow.png)
 
 A responsive task management app built using HTML, CSS and JavaScript.
 
