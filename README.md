@@ -1,5 +1,3 @@
-# Dev Task
-
 # TaskFlow
 
 A responsive task management app built using HTML, CSS and JavaScript.
